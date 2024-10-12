@@ -2,7 +2,7 @@
 export NDK_ROOT=$1
 export MIN_SDK_VERSION=$2
 export APP_ROOT=$(pwd)
-export HOST_TAG=linux-aarch64
+export HOST_TAG=linux-x86_64
 export GDALDIR=$APP_ROOT/../submodules/gdal/gdal
 export PROJDIR=$APP_ROOT/../submodules/proj4
 export BUILDDIR=$APP_ROOT/../submodules/build
